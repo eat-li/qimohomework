@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+  height: 100vh;
+  overflow: hidden;
+}
+.box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 350px;
+  margin: auto;
+  cursor: pointer;
+}
+.warpper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  perspective: 800px;
+  transform-style: preserve-3d;
+}
+.box .warpper img {
+  width: 390px;
+  height: 290px;
+  float: left;
+  filter: grayscale(80%);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+.box .warpper img:hover {
+  filter: grayscale(0%);
+}
+.btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 1200px;
+  transform: translate(-50%, -20px);
+}
+.btn .left,
+.btn .right {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 15%;
+  position: absolute;
+}
+.btn .left {
+  left: 0;
+}
+.btn .right {
+  right: 0;
+}
+.btn span:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.points {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, 200px);
+  height: 14px;
+}
+.points li {
+  display: inline-block;
+  list-style: none;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 5px;
+}
+.points .current {
+  background-color: red;
+}

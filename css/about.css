@@ -1,0 +1,145 @@
+body {
+  overflow-x: hidden;
+}
+/* 欢迎文字 */
+.welcome {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 20px;
+  background-image: url(../image/22.png);
+  background-size: cover;
+  height: 40vh;
+  background-size: cover;
+  width: 100vw;
+  border-bottom: 8px solid black;
+}
+.welcome h1 {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 3px 3px 3px #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 100px;
+}
+/* 个人信息 */
+main .myself {
+  padding-top: 100px;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url(../image/21.png);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* 每个介绍的单独样式 */
+main .myself .item {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: #dae8ef;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.9;
+  transition: 0.4s all linear;
+  margin-left: 50px;
+}
+main .myself .item:hover {
+  transform: scale(1.05);
+}
+/* 文字 */
+main .myself .item .txt {
+  flex: 5;
+  font-size: 18px;
+  padding-left: 20px;
+}
+/* 图片背景 */
+main .myself .item1 .imgs {
+  background-image: url(../image/8.png);
+}
+main .myself .item2 .imgs {
+  background-image: url(../image/7.png);
+}
+main .myself .item3 .imgs {
+  background-image: url(../image/17.png);
+}
+main .myself .item4 .imgs {
+  background-image: url(../image/13.png);
+}
+/* 动画效果 */
+main .myself .item1 {
+  animation: move1 1s ease-in-out;
+}
+main .myself .item2 {
+  animation: move2 2s ease-in-out;
+}
+main .myself .item3 {
+  animation: move3 3s ease-in-out;
+}
+main .myself .item4 {
+  animation: move4 4s ease-in-out;
+}
+/* 图片通用类 */
+.common-img {
+  width: 300px;
+  height: 200px;
+  flex: 2;
+  border-radius: 8px;
+  background-size: cover;
+  transition: 0.2s;
+}
+.common-img:hover {
+  transform: scale(1.05);
+}
+@keyframes move1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@keyframes move2 {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@keyframes move3 {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@keyframes move4 {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}

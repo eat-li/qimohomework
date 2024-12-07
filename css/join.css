@@ -1,0 +1,141 @@
+body {
+  background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+}
+.join {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join .myconnect {
+  background-image: url(/image/19.png);
+  background-size: cover;
+  height: 80%;
+  width: 80%;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+.join .myconnect h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: "幼圆";
+  margin-top: 50px;
+}
+.join .myconnect .net {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.join .myconnect .net div[class^="item"] {
+  height: 50px;
+  background-color: #fff;
+  width: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 50%;
+  transform: translateY(200px);
+  color: #fff;
+}
+
+.join .myconnect .net .item1 {
+  background-image: url(/image/qq.png);
+  background-size: cover;
+}
+.join .myconnect .net .item1::after {
+  content: "1960341843";
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #fff;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+.join .myconnect .net .item2::after {
+  content: "1960341843@qq.com";
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #fff;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+.join .myconnect .net .item3::after {
+  content: "https://github.com/eat-li";
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #fff;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+.join .myconnect .net .item4::after {
+  content: "ADC1960341843";
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #fff;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+.join .myconnect .net .item2 {
+  background-image: url(/image/邮箱.png);
+  background-size: cover;
+}
+.join .myconnect .net .item3 {
+  background-image: url(/image/github.png);
+  background-size: cover;
+}
+.join .myconnect .net .item4 {
+  background-image: url(/image/weixin.png);
+  background-size: cover;
+}
+.join .myconnect .net .item1:hover::after,
+.join .myconnect .net .item2:hover::after,
+.join .myconnect .net .item3:hover::after,
+.join .myconnect .net .item4:hover::after {
+  opacity: 1;
+}
+.join .myconnect .net .weixin {
+  position: relative;
+  transition: 2s ease-in-out;
+}
+.join .myconnect .net .weixin .mask {
+  height: 230px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(/image/erweima.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  display: none;
+  z-index: 999;
+}
+.join .myconnect .net .weixin:hover .mask {
+  display: block;
+  animation: showID 1s ease-in-out forwards;
+}
+@keyframes showID {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}

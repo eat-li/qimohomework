@@ -1,0 +1,50 @@
+/* 导航栏样式 */
+nav {
+  background-color: #333; /* 导航栏背景色 */
+  padding: 10px 20px; /* 内边距 */
+  display: flex; /* 使用flex布局 */
+  justify-content: space-between; /* 主轴空间分配 */
+  align-items: center; /* 垂直居中 */
+  position: fixed; /* 固定定位 */
+  top: 0; /* 距离顶部 */
+  left: 0; /* 距离左边 */
+  width: 100%; /* 宽度为100% */
+  z-index: 999; /* 层级 */
+  opacity: 0.8;
+}
+
+.navtitle {
+  color: #fff; /* 字体颜色 */
+  font-size: 24px; /* 字体大小 */
+}
+
+.navlist {
+  display: flex; /* 水平排列 */
+}
+
+.navlist a {
+  color: #fff; /* 链接字体颜色 */
+  text-decoration: none; /* 去掉下划线 */
+  padding: 10px 15px; /* 内边距 */
+  transition: background-color 0.3s, transform 0.3s; /* 背景色和字体放大渐变 */
+  font-size: 19px;
+}
+.navlist a:last-child {
+  margin-right: 100px;
+}
+.navlist a:hover {
+  background-color: #555; /* 悬停时的背景色 */
+  transform: scale(1.1); /* 悬停时放大 */
+  z-index: 1; /* 确保悬停链接位于最上层 */
+}
+
+.navanim {
+  width: 10px; /* 动画元素的宽度 */
+  height: 10px; /* 动画元素的高度 */
+  background-color: #ff4500; /* 动画元素的颜色 */
+  transition: transform 0.3s; /* 动画渐变 */
+}
+
+.navlist a:hover + .navanim {
+  transform: scale(1.5); /* 悬停时放大效果 */
+}

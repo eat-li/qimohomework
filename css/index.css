@@ -1,0 +1,126 @@
+html,
+body {
+  overflow: hidden;
+}
+
+/* 首页图片展示 */
+.titleimg {
+  background-image: url("../image/6.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 100vw;
+  transition: 0.5s ease 0s;
+  animation: load 0.5s;
+}
+/* 首页欢迎文字 */
+.titleimg .title {
+  width: 100%;
+  padding-top: 200px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 1px 1px 10px rgb(59, 73, 95);
+}
+
+.main {
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: #0c213aa0;
+}
+
+.sec {
+  height: 100vh;
+}
+.sec:last-child {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.pt {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 220px;
+  background: #0c213aa0;
+  box-shadow: 0 0 15px rgb(59, 73, 95);
+  border-radius: 15px;
+  overflow: hidden;
+  align-items: space-evenly;
+  margin: 0 50px;
+  transition: all 0.5s ease 0s;
+}
+.pt:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.imghid {
+  overflow: hidden;
+}
+.part1 .img {
+  background-image: url("../image/1.png");
+}
+.part2 .img {
+  background-image: url("../image/2.png");
+}
+.part3 .img {
+  background-image: url("../image/3.png");
+}
+.part4 .img {
+  background-image: url("../image/4.png");
+}
+
+.pt .img {
+  height: 160px;
+  width: 250px;
+  background-size: cover;
+  transition: all 0.5s ease 0s;
+  opacity: 0.8;
+}
+
+.pt .img:hover {
+  transform: scale(1.2);
+}
+.imghid {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.pt .txt {
+  height: 310px;
+  width: 200px;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.pt .txt h1 {
+  text-align: center;
+  font-size: 3em;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.pt .txt p {
+  margin-top: -2px;
+  padding-left: 5px;
+  font-size: 18px;
+  color: rgb(145, 216, 236);
+}
+@keyframes load {
+  0% {
+    background-position-y: 50px;
+    opacity: 0;
+  }
+  100% {
+    background-position-y: 0px;
+    opacity: 1;
+  }
+}
