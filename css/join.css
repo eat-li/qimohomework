@@ -9,7 +9,7 @@ body {
   align-items: center;
 }
 .join .myconnect {
-  background-image: url(/image/19.png);
+  background-image: url(../image/19.png);
   background-size: cover;
   height: 80%;
   width: 80%;
@@ -42,7 +42,7 @@ body {
 }
 
 .join .myconnect .net .item1 {
-  background-image: url(/image/qq.png);
+  background-image: url(../image/qq.png);
   background-size: cover;
 }
 .join .myconnect .net .item1::after {
@@ -90,15 +90,15 @@ body {
   transition: 1s ease-in-out;
 }
 .join .myconnect .net .item2 {
-  background-image: url(/image/邮箱.png);
+  background-image: url(../image/邮箱.png);
   background-size: cover;
 }
 .join .myconnect .net .item3 {
-  background-image: url(/image/github.png);
+  background-image: url(../image/github.png);
   background-size: cover;
 }
 .join .myconnect .net .item4 {
-  background-image: url(/image/weixin.png);
+  background-image: url(../image/weixin.png);
   background-size: cover;
 }
 .join .myconnect .net .item1:hover::after,
@@ -117,7 +117,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(/image/erweima.jpg);
+  background-image: url(../image/erweima.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 8px;
