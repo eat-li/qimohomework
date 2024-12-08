@@ -54,10 +54,11 @@ body {
   background-image: url("../image/23.png");
 }
 .c2 .img:hover {
-  background-image: url("../image/16.png");
+  background-image: url("../image/28.png");
+  background-position-x: right;
 }
 .c3 .img {
-  background-image: url("../image/25.png");
+  background-image: url("../image/27.png");
 }
 .c3 .img:hover {
   background-image: url("../image/18.png");
@@ -110,7 +111,7 @@ body {
 
 .pri .prihead {
   height: 250px;
-  background-color: rgb(166, 213, 232);
+  background-color: rgb(225, 230, 232);
   border-radius: 20px;
   padding-top: 50px;
   box-shadow: 0 0 8px rgba(39, 69, 88, 0.6);
@@ -128,7 +129,7 @@ body {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background-image: url("../image/20.png");
+  background-image: url("../image/touxiang.png");
   background-size: cover;
   transition: 0.5s ease 0s;
 }
@@ -157,6 +158,7 @@ body {
 .tag h2 {
   text-align: center;
   padding-top: 20px;
+  font-size: 20px;
   color: rgb(56, 117, 158);
   font-weight: bolder;
 }
@@ -165,7 +167,7 @@ body {
   word-wrap: break-word;
   display: block;
   width: 220px;
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 40px;
   color: rgb(109, 166, 168);
 }

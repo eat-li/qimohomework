@@ -1,0 +1,58 @@
+/* CSS Document */
+
+.box1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px; /* 放大了box1的宽度，以便有更多空间放置放大后的span元素 */
+  height: 100px; /* 放大了box1的高度 */
+  margin: 50px auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.box1 span {
+  position: absolute;
+  width: 40px; /* 放大了span元素的宽度 */
+  height: 40px; /* 放大了span元素的高度 */
+  background: #3498db;
+  opacity: 0.5;
+  border-radius: 100%;
+  animation: anim 1s infinite ease-in-out;
+}
+
+.box1 > :nth-child(2) {
+  left: 50px; /* 调整了第二个span元素的left值，增大了间距 */
+  animation-delay: 0.2s;
+}
+
+.box1 > :nth-child(3) {
+  left: 100px; /* 调整了第三个span元素的left值，增大了间距 */
+  animation-delay: 0.4s;
+}
+
+.box1 > :nth-child(4) {
+  left: 150px; /* 调整了第四个span元素的left值，增大了间距 */
+  animation-delay: 0.6s;
+}
+
+.box1 > :nth-child(5) {
+  left: 200px; /* 调整了第五个span元素的left值，增大了间距 */
+  animation-delay: 0.8s;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0.3;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-15px); /* 适当增大了上下移动的距离，使动画更明显 */
+    background: #f9cdff;
+  }
+  100% {
+    opacity: 0.3;
+    transform: translateY(0px);
+  }
+}

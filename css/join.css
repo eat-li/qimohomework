@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+  background-image: linear-gradient(-90deg, #29bdd9 0%, #9bb2d5 100%);
 }
 .join {
   width: 100vw;
@@ -9,7 +9,7 @@ body {
   align-items: center;
 }
 .join .myconnect {
-  background-image: url(../image/19.png);
+  background-image: url(../image/31.png);
   background-size: cover;
   height: 80%;
   width: 80%;
@@ -20,7 +20,10 @@ body {
 .join .myconnect h2 {
   text-align: center;
   font-size: 50px;
-  color: white;
+  transform: translateY(100px);
+  text-shadow: 1px 1px 1px #000;
+  font-weight: 800;
+  color: #000;
   font-family: "幼圆";
   margin-top: 50px;
 }
@@ -45,6 +48,7 @@ body {
   background-image: url(../image/qq.png);
   background-size: cover;
 }
+
 .join .myconnect .net .item1::after {
   content: "1960341843";
   position: absolute;
@@ -52,7 +56,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
-  color: #fff;
+  color: #000;
   opacity: 0;
   transition: 1s ease-in-out;
 }
@@ -63,7 +67,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
-  color: #fff;
+  color: #000;
   opacity: 0;
   transition: 1s ease-in-out;
 }
@@ -74,7 +78,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
-  color: #fff;
+  color: #000;
   opacity: 0;
   transition: 1s ease-in-out;
 }
@@ -85,7 +89,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
-  color: #fff;
+  color: #000;
   opacity: 0;
   transition: 1s ease-in-out;
 }
