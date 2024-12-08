@@ -23,8 +23,12 @@ body {
   font-weight: bolder;
   color: #fff;
   text-shadow: 1px 1px 10px rgb(59, 73, 95);
+  transition: 1s ease 0s;
 }
-
+.titleimg .title p {
+  font-size: 18px;
+  margin-top: 20px;
+}
 .main {
   overflow-x: hidden;
   height: 100vh;

@@ -1,6 +1,6 @@
 /* 导航栏样式 */
 nav {
-  background-color: #333; /* 导航栏背景色 */
+  background-color: #403b3b; /* 导航栏背景色 */
   padding: 10px 20px; /* 内边距 */
   display: flex; /* 使用flex布局 */
   justify-content: space-between; /* 主轴空间分配 */
