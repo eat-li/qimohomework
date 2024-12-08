@@ -24,7 +24,7 @@ body {
   width: 35%;
   height: 100%;
   background-color: antiquewhite;
-  background-image: url(/image/26.png);
+  background-image: url(../image/26.png);
   background-size: cover;
   background-position: 300px;
 }
