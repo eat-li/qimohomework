@@ -13,7 +13,7 @@ body {
 /* 文本内容 */
 .content {
   padding-top: 60px;
-  padding-left: 20%;
+  padding-left: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -104,14 +104,14 @@ body {
   height: 500px;
   width: 300px;
   position: fixed;
-  right: 50px;
+  left: 50px;
   top: 80px;
   animation: priload 2s linear;
 }
 
 .pri .prihead {
-  height: 250px;
-  background-color: rgb(225, 230, 232);
+  height: 400px;
+  background-color: #a79d94;
   border-radius: 20px;
   padding-top: 50px;
   box-shadow: 0 0 8px rgba(39, 69, 88, 0.6);
@@ -138,11 +138,11 @@ body {
 }
 
 .prihead h2 {
-  color: rgb(32, 76, 97);
+  color: #192731;
   text-align: center;
 }
 .prihead p {
-  color: rgb(118, 175, 185);
+  color: #192731;
   text-align: center;
   font-size: 18px;
 }
@@ -153,23 +153,6 @@ body {
   margin-top: 20px;
   border-radius: 20px;
   box-shadow: 0 0 8px rgba(39, 69, 88, 0.6);
-}
-
-.tag h2 {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 20px;
-  color: rgb(56, 117, 158);
-  font-weight: bolder;
-}
-
-.tag p {
-  word-wrap: break-word;
-  display: block;
-  width: 220px;
-  font-size: 16px;
-  padding-left: 40px;
-  color: rgb(109, 166, 168);
 }
 
 @keyframes c1load {
